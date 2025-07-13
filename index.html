@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 2: Lanzador de Bumerán Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 2: Lanzador de Bumerán Digital</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Reflexionar sobre cómo nuestras publicaciones forman una imagen sobre quiénes somos en Internet.</li>
+                                        <li>Pensar antes de compartir: consecuencias emocionales y reputacionales de nuestras publicaciones.</li>
+                                        <li>Comprender el impacto emocional de nuestras publicaciones en otros.</li>
+                                        <li>Analizar ejemplos de daño o apoyo generado en entornos digitales.</li>
+                                        <li>Fomentar la empatía y reflexión crítica antes de compartir contenido.</li>
+                                        <li>Reconocer las consecuencias a corto y largo plazo de las publicaciones.</li>
+                                        <li>Reflexionar antes de compartir imágenes, mensajes o información personal en línea, considerando cómo puede afectar a otros.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Desarrollo de la capacidad de prever el impacto de las publicaciones en línea y la internalización de una fórmula de 3 pasos para la reflexión antes de compartir contenido.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Cuaderno y colores.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación para explorar la idea de "impacto".</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Activación: Saludo Secreto en Parejas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo, a sus puestos! 🚀 Para activar nuestra energía de creadores, vamos a inventar un Saludo Secreto en Parejas. La palabra clave que deben representar es: 'IMPACTO'. ¡Tienen 30 segundos para crear un saludo que demuestre fuerza y efecto! ¡Adelante!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>Pide a las parejas que creen y practiquen su saludo. Invita a algunas parejas a mostrarlo al grupo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Wow, qué saludos tan poderosos! Veo choques de palmas, efectos de explosión... ¡Esa idea de que un movimiento causa una reacción es exactamente de lo que hablaremos hoy! ¡La energía que lanzamos siempre llega a alguna parte!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo usando la pregunta clave de la misión anterior.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 3. Recuerdo Relámpago: El Ladrillo Viajero.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Arquitectos! Recordemos nuestro sello de la misión pasada: 'Cada post es un ladrillo... yo construyo mi castillo'. 🏰 Pero eso nos dejó una pregunta en el aire: Si ya sabemos construir nuestro castillo, ¿cómo nos aseguramos de que no afecte o dañe los castillos de los demás?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>En parejas, pide que discutan la pregunta. Conecta sus respuestas con la misión de hoy.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Discutan con su compañero arquitecto. ¿Qué pasa si un ladrillo se nos cae y rompe la ventana del vecino? (Pausa). ¡'Se enoja', 'hay que repararla', 'nuestra reputación se daña'! ¡Exacto! Nuestros ladrillos no solo construyen, ¡también pueden impactar! Hoy vamos a ser expertos en calcular la trayectoria de cada ladrillo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión con una metáfora de acción y consecuencia.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyecta Diapositiva 4. Objetivos de la Misión. (Imagen de una persona lanzando dos bumeranes: uno con forma de corazón que regresa con más corazones, y otro con forma de rayo que regresa con nubes de tormenta).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión de hoy es convertirnos en UN LANZADOR DE BUMERÁN DIGITAL. Cada publicación, cada mensaje que enviamos, es un bumerán que lanzamos al universo digital. Siempre regresa a nosotros, pero en el camino, impacta a otros. Hoy aprenderemos a diseñar bumeranes que construyan y no destruyan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Pide a los estudiantes que escriban o dibujen su "I Can Statement" y que lo compartan.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Todo lanzador tiene su estilo. El mío es: 'Yo puedo diseñar un bumerán de apoyo que regrese como un trofeo de amistad'. Ahora ustedes, en su taller de diseño, completen: 'Hoy mi bumerán digital llevará el mensaje de...'.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar la curiosidad con una historia que muestra dos reacciones opuestas ante un mismo evento.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 5. Brain Boost: El Chat Después del Partido.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">El chat del equipo de básquetbol 'Los Cometas' estaba en silencio. Acababan de perder un partido importante en el último segundo porque Nico, uno de sus mejores jugadores, falló el tiro final. Nico se sentía fatal.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 6. Los Dos Lanzamientos. (Imagen dividida: de un lado, un meme burlón sobre Nico; del otro, un mensaje de apoyo para él).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"De repente, dos 'bumerán' son lanzados al chat. Bumerán 1 (de Javi): Un meme de un personaje fallando con la cara de Nico pegada encima. Bumerán 2 (de Sara): Un mensaje que dice: '¡Qué tiro tan difícil! ¡Casi entra! ¡La próxima vez lo lograrás, equipo!'. <br>¿Qué impacto tuvo cada bumerán en Nico? Y, muy importante, ¿qué reputación se está construyendo Javi y cuál se está construyendo Sara con sus lanzamientos?"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conecta la historia con el objetivo de la misión (sin diapositiva, es parte del diálogo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! El bumerán de Javi fue uno del caos, que hirió a Nico y lo hizo ver como un mal compañero. El de Sara fue un bumerán de la unión, que animó a Nico y la hizo ver como una líder. ¡El mismo evento, dos lanzamientos, dos mundos de diferencia! Hoy vamos a entrenar nuestra puntería.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Practicar la reflexión antes de la acción en un entorno gamificado.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Da la instrucción y pide a los estudiantes que ingresen a la plataforma para jugar el minijuego de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora de ir al campo de entrenamiento! Ingresen a la plataforma y entren al 'Simulador de Lanzamiento'. Antes de elegir cada comentario o publicación en un el juego, la pantalla se pausará y les pedirá que predigan su impacto. Su misión: ¡conseguir el puntaje más alto de 'Predicción Acertada'! ¡A calibrar esos lanzamientos!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir el reto de análisis de consecuencias como una investigación de "efecto dominó".</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 8. Challenge: El Efecto Dominó Digital.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han demostrado una puntería increíble! Ahora, la prueba final. Se convertirán en Investigadores del Efecto Dominó Digital. Analizarán cómo una sola ficha puede derribar toda una línea. domino</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 3 minutos</h3>
+                            <p>Proyecta Diapositiva 9. La Primera Ficha. Narra la historia de cada perfil.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Aquí está la primera ficha que cae! Leo le toma una foto a su amigo Carlos justo cuando se tropieza en el patio. Le parece muy graciosa y, sin preguntarle, la sube al grupo del salón con el título '¡Cuidado con el suelo! 😂'. Su misión: predecir qué fichas caerán después.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 4 minutos</h3>
+                            <p>Pide a los equipos que, en sus cuadernos, dibujen o escriban la secuencia del efecto dominó, respondiendo a 3 preguntas clave.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"¡A investigar, equipos! En su cuaderno, dibujen la cadena de dominós. ¿Qué pasa después? Respondan a esto: <br> 1. Ficha 2 (Impacto Inmediato): ¿Cómo se siente Carlos al ver la foto? ¿Qué comentan los demás en el grupo? <br>2. Ficha 3 (Consecuencias a Mediano Plazo): ¿Qué apodo le podrían poner a Carlos? ¿Cómo cambia la forma en que juega en el patio?<br> 3. Ficha 4 (El Bumerán): ¿Qué reputación se está construyendo Leo? ¿La gente confiará en él para contarle un secreto?"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 10. Mapeo de Consecuencias. Guía el refuerzo del aprendizaje compartiendo los "mapas de dominós" y discutiendo las diferentes cadenas de consecuencias.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo! Equipo 'Los Predictivos', ¡compartan el camino de su efecto dominó! ¿Qué apodo le pusieron a Carlos? 'Manos de mantequilla', ¡ouch! ¿Y qué pasó con la reputación de Leo? ¡Se convirtió en el 'chismoso'! ¿Ven cómo una sola ficha puede llegar tan lejos?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 11. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Son oficialmente los mejores estrategas y lanzadores del mundo digital! Una última pregunta: antes de lanzar cualquier bumerán, ¿cuál es la fórmula secreta que un maestro lanzador debe revisar?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 12. La Fórmula del Lanzamiento Maestro. Presenta la fórmula de 3 pasos.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"¡Exacto! Una fórmula para pensar antes de actuar. Para que siempre tengan la mejor puntería, esta es su nueva clave secreta: la Fórmula del Lanzamiento Maestro.<br> Antes de publicar, revisa tu: <br>✨ 1. TRAYECTORIA 🎯 (¿A quién le va a llegar?) <br>✨ 2. DISEÑO 🎨 (¿Qué dice esto de mí?)<br>✨ 3. IMPACTO 💥 (¿Va a construir o a destruir?)"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Repite la fórmula con gestos. Lanza la pregunta de conexión para la siguiente misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a preparar el lanzamiento! ¡TRAYECTORIA! (señalan al frente). ¡DISEÑO! (se señalan a sí mismos). ¡IMPACTO! (chocan las palmas). ¡Perfecto! Guarden esta fórmula, porque nos deja una pregunta: Si ya sabemos ser cuidadosos con nuestros lanzamientos, ¿cómo construimos un escudo impenetrable para nuestro castillo digital? 🤔 ¡Nos vemos en la próxima misión!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
